@@ -1,6 +1,14 @@
+body {
+    margin: 40px;
+}
 
-
-
+.cykelimg {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+}
 
 
 
@@ -18,9 +26,16 @@
 }
 
 .footerH{
+    display: grid;
+    grid-template-rows: 25%  25%  25%  25%;
+    grid-gap: 25%;
     color: yellow;
+
 }
 
 .footerP{
+    display: grid;
+    grid-template-columns: 25% 25%  25%  25%;
+    grid-gap: 5px;
     color: gray;
 }
