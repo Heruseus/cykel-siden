@@ -1,3 +1,4 @@
+
 body {
     margin: 40px;
 }
@@ -10,32 +11,34 @@ body {
     color: #444;
 }
 
-
-
-
-
-
-
-
-
-
-
+.News{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    align-content: center;
+    background-color: rgb(197, 196, 196);
+}
 
 .footer{
+    display: grid;
+    grid-template-columns: 33%  33%  33%;
+    grid-gap: 10px;
     background-color: black;
 }
 
-.footerH{
-    display: grid;
-    grid-template-rows: 25%  25%  25%  25%;
-    grid-gap: 25%;
+.footer h3{
+   text-align: center;;
     color: yellow;
 
 }
 
 .footerP{
-    display: grid;
-    grid-template-columns: 25% 25%  25%  25%;
-    grid-gap: 5px;
+    text-align: center;
+    color: gray;
+
+}
+
+.footerN{
+    text-align: center;
     color: gray;
 }
