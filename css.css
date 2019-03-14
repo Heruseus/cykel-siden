@@ -3,42 +3,50 @@ body {
     margin: 40px;
 }
 
+.container{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    
+}
+
 .cykelimg {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
+    text-align: center;
     background-color: #fff;
     color: #444;
 }
 
 .News{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-    align-content: center;
     background-color: rgb(197, 196, 196);
 }
 
 .footer{
     display: grid;
-    grid-template-columns: 33%  33%  33%;
+    grid-template-columns: 1fr  1fr  1fr;
     grid-gap: 10px;
     background-color: black;
 }
 
 .footer h3{
-   text-align: center;;
+   text-align: center;
     color: yellow;
 
 }
 
-.footerP{
+.footerP ul{
+    padding: 0;
     text-align: center;
     color: gray;
-
+    list-style-type: none;
 }
 
 .footerN{
     text-align: center;
+    grid-column: 2 / span 1;
     color: gray;
 }
