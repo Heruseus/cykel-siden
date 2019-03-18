@@ -1,10 +1,48 @@
 
 body {
-    margin: 40px;
+    margin: 0;
+}
+
+.logo{
+    text-align: center;
+    background-color: black;
+}
+
+.navboxs{
+    background-color: yellow;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+nav a{
+    padding: 17px 25px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover{
+    background-color: darkred;
+}
+
+.slider{
+    width: 0;
 }
 
 .container{
-    width: 80%;
+    width: 60%;
     margin: 0 auto 0 auto;
     
 }
@@ -22,14 +60,21 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+}
+
+.newsboxs{
+    padding: 15px;
     background-color: rgb(197, 196, 196);
+}
+
+.footerboxs{
+    background-color: black;
 }
 
 .footer{
     display: grid;
     grid-template-columns: 1fr  1fr  1fr;
     grid-gap: 10px;
-    background-color: black;
 }
 
 .footer h3{
