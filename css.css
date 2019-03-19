@@ -1,13 +1,16 @@
-
+/*body*/
 body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
+/* Logoet */
 .logo{
     text-align: center;
     background-color: black;
 }
 
+/* Navigation */
 .navboxs{
     background-color: yellow;
 }
@@ -37,8 +40,9 @@ nav a:hover{
     background-color: darkred;
 }
 
-.slider{
-    width: 0;
+/* Slide */
+.slider img{
+    width: 100%;
 }
 
 .container{
@@ -47,6 +51,7 @@ nav a:hover{
     
 }
 
+/* cykler */
 .cykelimg {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -56,6 +61,7 @@ nav a:hover{
     color: #444;
 }
 
+/* News */
 .News{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -67,6 +73,11 @@ nav a:hover{
     background-color: rgb(197, 196, 196);
 }
 
+.video{
+    width: 100%;
+}
+
+/* footer */
 .footerboxs{
     background-color: black;
 }
