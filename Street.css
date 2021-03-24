@@ -50,50 +50,7 @@ nav a:hover{
     background-color: black;
 }
 
-/* Slide */
-.slider img{
-    width: 100%;
-}
 
-.container{
-    width: 60%;
-    margin: 0 auto 0 auto;
-    
-}
-
-/* cykler */
-.cykelimg {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-    text-align: center;
-    list-style-type: none;
-    text-decoration: none;
-    background-color: #fff;
-    color: #444;
-}
-
-.cykelimg_text{
-    display: flex;
-    justify-content: center;
-    margin: 10px 0;
-}
-
-/* News */
-.News{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-}
-
-.newsboxs{
-    padding: 15px;
-    background-color: rgb(197, 196, 196);
-}
-
-.video{
-    width: 100%;
-}
 
 /* footer */
 .footerboxs{
