@@ -92,7 +92,10 @@ nav a:hover{
 }
 
 .video{
+    display: flex;
+    justify-content: center;
     width: 100%;
+    margin-top: 30px;
 }
 
 /* footer */
@@ -122,6 +125,7 @@ nav a:hover{
 }
 
 .footerP a{
+    margin: 3px 0;
     color: gray;
 }
 
