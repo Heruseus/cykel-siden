@@ -81,6 +81,7 @@ article{
 .box2{
     height: 50%;
     width: 50%;
+    padding-top: 20px;
     text-align: start;
 }
 
@@ -111,6 +112,7 @@ article{
 }
 
 .footerP a{
+    margin: 3px 0;
     color: gray;
 }
 
