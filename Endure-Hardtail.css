@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+h1{
+    font-size: 48px;
+}
+
 a{
     text-decoration: none;
 }
@@ -17,6 +21,12 @@ li{
 .logo{
     text-align: center;
     background-color: black;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto 0 auto;
+    
 }
 
 /* Navigation */
@@ -50,7 +60,29 @@ nav a:hover{
     background-color: black;
 }
 
+section{
+    text-align: center;
+}
 
+article{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.box1{
+    height: 50%;
+    width: 50%;
+}
+
+.box1 img{
+    width: 70%;
+}
+
+.box2{
+    height: 50%;
+    width: 50%;
+    text-align: start;
+}
 
 /* footer */
 .footerboxs{
