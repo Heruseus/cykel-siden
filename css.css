@@ -113,10 +113,16 @@ nav a:hover{
 }
 
 .footerP ul{
+    display: flex;
+    flex-direction: column;
     padding: 0;
     text-align: center;
     color: gray;
     list-style-type: none;
+}
+
+.footerP a{
+    color: gray;
 }
 
 .footerN{
