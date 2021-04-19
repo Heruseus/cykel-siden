@@ -129,6 +129,10 @@ footer h3{
     color: gray;
 }
 
+.footerP li{
+    margin:  3px 0;
+}
+
 .footerN{
     text-align: center;
     grid-column: 2 / span 1;

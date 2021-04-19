@@ -86,20 +86,28 @@ article{
 }
 
 /* footer */
-.footerboxs{
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 410px;
     background-color: black;
 }
 
-.footer{
+.footerboxs{
     display: grid;
     grid-template-columns: 1fr  1fr  1fr;
     grid-gap: 10px;
 }
 
-.footer h3{
+footer h3{
    text-align: center;
     color: yellow;
 
+}
+
+.footerP{
+    margin-top: 25%;
 }
 
 .footerP ul{
