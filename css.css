@@ -99,20 +99,20 @@ nav a:hover{
 }
 
 /* footer */
-.footerboxs{
+
+footer{
     background-color: black;
 }
 
-.footer{
+.footerboxs{
     display: grid;
     grid-template-columns: 1fr  1fr  1fr;
     grid-gap: 10px;
 }
 
-.footer h3{
+footer h3{
    text-align: center;
     color: yellow;
-
 }
 
 .footerP ul{
